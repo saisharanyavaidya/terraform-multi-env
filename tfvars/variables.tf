@@ -8,12 +8,6 @@ variable "instance_names" {
 #   }
 }
 
-variable "image_id" {
-    type = string
-    default = "ami-090252cbe067a9e58"
-    description = "RHEL- 9 AMI id"
-
-}
 
 variable "common_tags" {
     default = {

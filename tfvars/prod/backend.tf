@@ -1,4 +1,4 @@
 bucket = "terraform-state-prod-avyan"
-key    = "terraform-prod-practice"
+key    = "multi-env-tfvars"
 region = "us-east-1"
 dynamodb_table = "terraform-prod-locking"

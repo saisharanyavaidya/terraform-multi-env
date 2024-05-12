@@ -1,4 +1,4 @@
-bucket = "terraform-remote-state-avyan"
-key    = "remote-state-practice"
+bucket = "terraform-state-dev-avyan"
+key    = "multi-env-tfvars"
 region = "us-east-1"
-dynamodb_table = "remote-state-locking-practice"
+dynamodb_table = "terraform-dev-locking"
